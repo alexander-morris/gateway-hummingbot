@@ -1,3 +1,9 @@
+# Hummingbot Gateway (Koii Modified Version)
+
+> **Note:** This is a modified version of Hummingbot Gateway that adds support for Koii Network and its Tancho fork with Raydium compatibility. For the original Gateway, please visit [hummingbot/gateway](https://github.com/hummingbot/gateway).
+
+See [koii-mod-scope.md](./koii-mod-scope.md) for details about the Koii Network integration and Tancho fork modifications.
+
 ![Hummingbot](https://i.ibb.co/X5zNkKw/blacklogo-with-text.png)
 
 # Hummingbot Gateway
@@ -29,7 +35,7 @@ sudo apt update && sudo apt install -y curl
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 
 
-# Install the default versions from Ubuntu’s repository:
+# Install the default versions from Ubuntu's repository:
 sudo apt install -y nodejs
 
 # Check Node.js version: 
